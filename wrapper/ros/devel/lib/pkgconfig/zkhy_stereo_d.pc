@@ -1,0 +1,8 @@
+prefix=/home/shuchun/Downloads/SmarterEyeSdk-master/wrapper/ros/devel
+
+Name: zkhy_stereo_d
+Description: Description of zkhy_stereo_d
+Version: 0.0.0
+Cflags: -I/home/shuchun/Downloads/SmarterEyeSdk-master/wrapper/ros/devel/include
+Libs: -L${prefix}/lib 
+Requires: cv_bridge roscpp rospy sensor_msgs std_msgs tf image_transport message_runtime
